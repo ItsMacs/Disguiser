@@ -1,0 +1,7 @@
+name: Disguiser
+version: '${project.version}'
+main: eu.maxpi.fiverr.disguiser.Disguiser
+api-version: 1.18
+authors: [ Macslolz ]
+description: Plugin to make players able to disguise
+website: fiverr.com/macslolz
