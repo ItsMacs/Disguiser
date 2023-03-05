@@ -1,0 +1,7 @@
+#Configuration file for Disguiser
+
+lang:
+  no-permission: "&cYou don't have permission!"
+  nick-usage: "&6Usage: &b/nick <name>"
+  skin-usage: "&6Usage: &b/skin <name>"
+  no-skin-available: "&cThis skin isn't available."
