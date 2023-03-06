@@ -1,7 +1,9 @@
 package eu.maxpi.fiverr.disguiser;
 
 import eu.maxpi.fiverr.disguiser.commands.NickCMD;
+import eu.maxpi.fiverr.disguiser.commands.NickOtherCMD;
 import eu.maxpi.fiverr.disguiser.commands.SkinCMD;
+import eu.maxpi.fiverr.disguiser.commands.SkinOtherCMD;
 import eu.maxpi.fiverr.disguiser.events.onChat;
 import eu.maxpi.fiverr.disguiser.events.onPlayerJoin;
 import eu.maxpi.fiverr.disguiser.events.onPlayerQuit;
@@ -39,6 +41,8 @@ public final class Disguiser extends JavaPlugin {
     private void loadCommands(){
         Objects.requireNonNull(getCommand("nick")).setExecutor(new NickCMD());
         Objects.requireNonNull(getCommand("skin")).setExecutor(new SkinCMD());
+        Objects.requireNonNull(getCommand("nickother")).setExecutor(new NickOtherCMD());
+        Objects.requireNonNull(getCommand("skinother")).setExecutor(new SkinOtherCMD());
     }
 
     private void loadTasks(){

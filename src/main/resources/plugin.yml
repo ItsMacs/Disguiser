@@ -11,3 +11,7 @@ commands:
     description: Nick
   skin:
     description: Skin
+  nickother:
+    description: Nickother
+  skinother:
+    description: Nickother

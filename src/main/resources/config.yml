@@ -2,6 +2,9 @@
 
 lang:
   no-permission: "&cYou don't have permission!"
+  no-player: "&cThere's no player with this name!"
+  nick-other-usage: "&6Usage: &b/nick <player> <name>"
+  skin-other-usage: "&6Usage: &b/skin <player> <name>"
   nick-usage: "&6Usage: &b/nick <name>"
   skin-usage: "&6Usage: &b/skin <name>"
   no-skin-available: "&cThis skin isn't available."
